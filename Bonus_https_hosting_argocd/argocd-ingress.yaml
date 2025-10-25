@@ -23,5 +23,5 @@ spec:
               name: https
   tls:
   - hosts:
-    - argocd.yourdomain.com  # Replace with your domain
+    - argocd.codetocloud.xyz  # Replace with your domain
     secretName: argocd-server-tls # Name of the TLS secret to be created by cert-manager
