@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/part-of: argocd # It is useful to identify all resources that are part of ArgoCD
 data:
   # Add local users with capabilities
-  accounts.alice: apiKey, login  # Can generate tokens and login to UI
-  accounts.bob: login            # Can only login to UI
+  accounts.aman: apiKey, login  # Can generate tokens and login to UI
+  accounts.krishna: apiKey, login        # Can only login to UI
   accounts.ci-user: apiKey       # Can only generate tokens (for automation)
 
